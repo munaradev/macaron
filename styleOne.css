@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: "Roboto Slab", serif;
+    font-style: normal;
+    
+}
+
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.header a {
+    /* font-family: Proxima Nova; */
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: center;
+    color: #2B1414;
+    /* width: 99px; */
+}
+
+.header select {
+    background: transparent;
+    padding-left: 10px;
+    color: #2B1414;
+    font-size: 14px;
+    ;
+    border: none;
+    outline: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header {
+    padding: 20px 0;
+    -webkit-box-shadow: 1px 4px 23px -5px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 1px 4px 23px -5px rgba(34, 60, 80, 0.2);
+    box-shadow: 1px 4px 23px -5px rgba(48, 78, 101, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+}
+
+.header a:hover {
+    text-decoration-line: underline;
+    color: deeppink
+}
+
+
+
+/* section */
+
+
+.gotoviye-nabory h4{
+    font-family: Proxima Nova;
+font-size: 14px;
+font-weight: 400;
+color:#29292975;
+padding: 50px 0;
+}
+
+.gotoviye-nabory h1{
+    font-family: Montserrat;
+font-size: 30px;
+font-weight: 600;
+}
+
+.textBlock h5{
+    font-family: Proxima Nova;
+font-size: 14px;
+font-weight: 400;
+color:#292929D4;
+width: 104px;
+height: 40px;
+border-radius: 20px;
+background-color: #F7EBE5;
+text-align: center;
+justify-content: center;
+display: flex;
+flex-direction: column;
+}
+.textBlock{
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+}
+
